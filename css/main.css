@@ -19,6 +19,32 @@ body {
   line-height: 50px;
 }
 
+.content {
+  position: relative;
+  background: #464646 url(bixby_bridge.jpg) no-repeat center center fixed;
+  background-size: cover;
+ }
+
+.menu {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.menu a, .menu a:visited {
+  color: #ffffff;
+}
+.menu a:hover, .menu a:target {
+  color: #ebebeb;
+}
+.menu-items {
+  display: inline-block;
+}
+.sitename {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
