@@ -35,7 +35,7 @@ body {
   margin: 0 auto;
 }
 .menu a, .menu a:visited {
-  color: #ffffff;
+  color: #333; 
 }
 .menu a:hover, .menu a:target {
   color: #ebebeb;
@@ -91,7 +91,22 @@ body {
     display: none;
   }
     
-  .parallax1 {
+  
+    
+  #menu:target .show {
+    display: none;
+  }
+  #menu:target .hide, #menu:target .menu-items {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 220px) {
+  .sitename, .show, .hide {
+    font-size: 14px;
+  }
+}
+.parallax1 {
     /* About Page*/
     background-image: url("forrest.JPG");
     min-height: 500px; 
@@ -110,21 +125,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-    
-  #menu:target .show {
-    display: none;
-  }
-  #menu:target .hide, #menu:target .menu-items {
-    display: inline-block;
-  }
-}
-
-@media only screen and (max-width: 220px) {
-  .sitename, .show, .hide {
-    font-size: 14px;
-  }
-}
-
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
