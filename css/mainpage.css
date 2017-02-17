@@ -1,5 +1,6 @@
 body {
     background-image: url("bixbybridge.jpg");
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center center;
+    background-size: cover;
 }
