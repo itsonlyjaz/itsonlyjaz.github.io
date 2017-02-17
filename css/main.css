@@ -118,13 +118,34 @@ body {
     
     .parallax2 {
     /* Education Page*/
-    background-image: url("private beach.JPG");
+    background-image: url("circuit.jpg");
     min-height: 500px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.parallax3 {
+    /* Photography Page -- add a lightbox for this */
+    background-image: url("circuit.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    /* Lifestyle Page -- the blog */
+    background-image: url("circuit.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
