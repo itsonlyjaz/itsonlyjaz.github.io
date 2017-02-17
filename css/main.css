@@ -93,7 +93,7 @@ body {
     
   .parallax1 {
     /* About Page*/
-    background-image: url("bixby_bridge.JPG");
+    background-image: url("forrest.JPG");
     min-height: 500px; 
     background-attachment: fixed;
     background-position: center;
@@ -103,7 +103,7 @@ body {
     
     .parallax2 {
     /* Education Page*/
-    background-image: url("bixby_bridge.JPG");
+    background-image: url("privatebeach.JPG");
     min-height: 500px; 
     background-attachment: fixed;
     background-position: center;
