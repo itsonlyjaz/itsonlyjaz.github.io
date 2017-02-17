@@ -90,6 +90,27 @@ body {
   .hide {
     display: none;
   }
+    
+  .parallax1 {
+    /* About Page*/
+    background-image: url("bixby_bridge.JPG");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+    .parallax2 {
+    /* Education Page*/
+    background-image: url("bixby_bridge.JPG");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
   #menu:target .show {
     display: none;
   }
