@@ -108,7 +108,7 @@ body {
 }
 .parallax1 {
     /* About Page*/
-    background-image: url("taking_photos.JPG");
+    background-image: url("taking_photos.jpg");
     min-height: 500px; 
     background-attachment: fixed;
     background-position: center;
