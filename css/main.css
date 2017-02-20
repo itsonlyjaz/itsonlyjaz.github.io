@@ -3,6 +3,11 @@ body {
     width: 70%;
 }
 
+.default {
+    margin: 60px auto;
+    width: 70%;
+}
+
 .smaller {
     margin: 10px auto;
     width: 95%;
