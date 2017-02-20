@@ -75,10 +75,6 @@ body {
     padding: 0 1.5em;
 }
 
-.menu li a:hover, .dropdown:hover .dropbtn{
-
-    background-color: grey;
-}
 
 .menu-items ul {
     position: absolute;
@@ -95,41 +91,6 @@ body {
     display: block;
 }
 
-.dropdown {
-     position: absolute; 
-     background-color: lightgrey; 
-     display: none; 
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 999;
-    }
-    
-  .dropdown a {
-      10px; 
-      display: block;
-    }
-
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: lightgrey;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {background-color: grey}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
 
 @media only screen and (max-width: 800px) {
   .menu { 
