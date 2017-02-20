@@ -90,6 +90,25 @@ body {
     display: block;
 }
 
+.dropdown {
+     position: absolute; 
+     background-color: lightgrey; 
+     min-width: 140px; 
+     display: none; 
+    }
+    
+  .dropdown a {
+      10px; 
+      display: block;
+    }
+
+.menu:hover .dropdown{ 
+    display: block; 
+    } 
+
+
+
+
 @media only screen and (max-width: 800px) {
   .menu { 
     position: relative;
@@ -122,22 +141,7 @@ body {
   .hide {
     display: none;
   }
-   
- .dropdown {
-     position: absolute; 
-     background-color: lightgrey; 
-     min-width: 140px; 
-     display: none; 
-    }
-    
-  .dropdown a {
-      10px; 
-      display: block;
-    }
-
-.menu:hover .dropdown{ 
-    display: block; 
-    } 
+ 
 
   #menu:target .show {
     display: none;
