@@ -122,9 +122,23 @@ body {
   .hide {
     display: none;
   }
+   
+ .droplinks {
+     position: absolute; 
+     background-color: lightgrey; 
+     min-width: 140px; 
+     display: none; 
+    }
     
-  
-    
+  .droplinks a {
+      10px; 
+      display: block;
+    }
+
+.dropbutton:hover .droplinks{ 
+    display: block; 
+    } 
+
   #menu:target .show {
     display: none;
   }
