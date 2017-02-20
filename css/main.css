@@ -70,7 +70,7 @@ body {
     float: left:
 }
  
-.menu-items li a, .dropbutton {
+.menu-items li a, .dropbtn {
     padding:10px 30px;
     display:inline-block;
     height: 2em;
@@ -78,7 +78,7 @@ body {
     padding: 0 1.5em;
 }
 
-.menu li a:hover, .dropdown:hover .dropbutton{
+.menu li a:hover, .dropdown:hover .dropbtn{
 
     background-color: grey;
 }
@@ -112,14 +112,28 @@ body {
       display: block;
     }
 
-.menu:hover .dropbutton{ 
-    display: block; 
-    } 
 
-.menu:hover .dropdown{
-    display: block;
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: grey}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 @media only screen and (max-width: 800px) {
   .menu { 
