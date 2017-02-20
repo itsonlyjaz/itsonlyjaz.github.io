@@ -28,11 +28,6 @@ body {
   margin-top: 20px;
 }
 
-.content {
-  position: relative;
-  background: #464646 url(bixby_bridge.jpg) no-repeat center center fixed;
-  background-size: cover;
- }
 
 .menu {
   width: 90%;
