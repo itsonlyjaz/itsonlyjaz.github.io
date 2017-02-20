@@ -3,7 +3,10 @@ body {
     width: 70%;
 }
 
-
+.smaller {
+    margin: 10px auto;
+    width: 95%;
+}
 
 .fixed-nav-bar {
   position: fixed;
