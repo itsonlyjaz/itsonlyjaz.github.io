@@ -3,6 +3,11 @@ body {
     width: 70%;
 }
 
+body1 {
+    margin: 5px auto;
+    width: 95%;
+}
+
 .fixed-nav-bar {
   position: fixed;
   top: 0;
