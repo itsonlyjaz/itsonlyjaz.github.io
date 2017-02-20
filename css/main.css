@@ -123,19 +123,19 @@ body {
     display: none;
   }
    
- .droplinks {
+ .dropdown {
      position: absolute; 
      background-color: lightgrey; 
      min-width: 140px; 
      display: none; 
     }
     
-  .droplinks a {
+  .dropdown a {
       10px; 
       display: block;
     }
 
-.dropbutton:hover .droplinks{ 
+.dropbutton:hover .dropdown{ 
     display: block; 
     } 
 
