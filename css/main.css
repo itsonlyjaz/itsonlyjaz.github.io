@@ -95,6 +95,8 @@ body {
      background-color: lightgrey; 
      min-width: 140px; 
      display: none; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 999;
     }
     
   .dropdown a {
@@ -102,7 +104,7 @@ body {
       display: block;
     }
 
-.menu:hover .dropbutton{ 
+.menu-items:hover .dropbutton{ 
     display: block; 
     } 
 
