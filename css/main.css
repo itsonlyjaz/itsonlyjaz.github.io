@@ -55,6 +55,7 @@ body {
   display: inline-block;
   margin-right: 10px;
   margin-left: 10px;
+  float: left;
 }
 .menu-items a {
   text-decoration: none;
@@ -69,12 +70,17 @@ body {
     float: left:
 }
  
-.menu-items li a {
+.menu-items li a, .dropbutton {
     padding:10px 30px;
-    display:block;
+    display:inline-block;
     height: 2em;
     line-height: 2em;
     padding: 0 1.5em;
+}
+
+.menu li a:hover, .dropdown:hover .dropbutton{
+
+    background-color: grey;
 }
 
 .menu-items ul {
@@ -86,6 +92,8 @@ body {
 .menu-items ul li a {
     width: 80px;
 }
+
+
 .menu-items li:hover ul {
     display: block;
 }
@@ -104,11 +112,13 @@ body {
       display: block;
     }
 
-.menu-items:hover .dropbutton{ 
+.menu:hover .dropbutton{ 
     display: block; 
     } 
 
-
+.menu:hover .dropdown{
+    display: block;
+}
 
 
 @media only screen and (max-width: 800px) {
