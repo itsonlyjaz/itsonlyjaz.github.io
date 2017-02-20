@@ -135,7 +135,7 @@ body {
       display: block;
     }
 
-.dropbutton:hover .dropdown{ 
+.menu:hover .dropdown{ 
     display: block; 
     } 
 
