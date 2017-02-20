@@ -102,7 +102,7 @@ body {
       display: block;
     }
 
-.dropbutton:hover .dropdown{ 
+.menu:hover .dropbutton{ 
     display: block; 
     } 
 
