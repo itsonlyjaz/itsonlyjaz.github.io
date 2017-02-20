@@ -46,10 +46,12 @@ body {
   color: #ebebeb;
 }
 .menu-items {
+  float: left;
   display: inline-block;
 }
 
 .menu-items li {
+  font-size:16px;
   display: inline-block;
   margin-right: 10px;
   margin-left: 10px;
@@ -63,21 +65,11 @@ body {
   margin-left: 10px;
 }
 
-.sub-menu {
-    float: left;
-    width:160%;
-}
- 
-.sub-menu li {
-    display:block;
-    font-size:16px;
-}
-
-.sub-menu > li {
+.menu-items > li {
     float: left:
 }
  
-.sub-menu li a {
+.menu-items li a {
     padding:10px 30px;
     display:block;
     height: 2em;
@@ -85,16 +77,16 @@ body {
     padding: 0 1.5em;
 }
 
-.sub-menu ul {
+.menu-items ul {
     position: absolute;
     display: none;
     z-index: 999;
 }
 
-.sub-menu ul li a {
+.menu-items ul li a {
     width: 80px;
 }
-.sub-menu li:hover ul {
+.menu-items li:hover ul {
     display: block;
 }
 
