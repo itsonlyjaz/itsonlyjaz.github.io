@@ -92,7 +92,11 @@ body {
 }
 
 td {
-    font-size: 14pt;
+    font-size: 16pt;
+}
+
+li {
+    font-size: 16pt;
 }
 
 
