@@ -225,3 +225,14 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+
+.icon {
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+.services section {
+    text-align: center;
+}
