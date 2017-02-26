@@ -1,10 +1,10 @@
 body {
-    margin: 0px auto; 
+    margin: 15px auto; 
     width: 70%;
 }
 
 .default {
-    margin: 0px auto;
+    margin: 15px auto;
     width: 70%;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 .content {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 
