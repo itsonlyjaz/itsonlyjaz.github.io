@@ -243,7 +243,13 @@ ul.posts li {
     h3 {
         margin-top: 0;
     }
-    .services section {
+    
+    .icon {
+        max-width: 100px;
+        margin: 0 auto;
+        display: block;
+    }
+       .services section {
         text-align: left;
     }
 }
