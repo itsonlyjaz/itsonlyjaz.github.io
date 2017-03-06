@@ -158,15 +158,15 @@ td {
     background-size: cover;    */
 }
 
-/* @media only screen and (max-width: 320px) {
+ @media only screen and (max-width: 320px) {
     .parallax1 {
     background-image: url("tiny_behind.jpg");
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;    
         }
-    } */
+    } 
     
     .parallax2 {
     /* Education Page*/
