@@ -151,7 +151,7 @@ td {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;   
-    min-height: 500px; 
+    height: 600px; 
     min-width: 500px;
  /*   background-attachment: fixed;
     background-position: center;
