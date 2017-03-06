@@ -238,6 +238,18 @@ ul.posts li {
     text-align: center;
 }
 
+.btn-primary {
+  color: white;
+  background-color: #F05F40;
+  border-color: #F05F40;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.btn-xl {
+  padding: 15px 30px;
+}
 
 @media(min-width: 1200px) {
     h3 {
