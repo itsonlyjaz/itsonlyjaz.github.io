@@ -146,7 +146,7 @@ td {
 }
 .parallax1 {
     /* About Page*/
-    background-image: url("taking_photos.jpg");
+    background-image: url("pumba_face.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -158,7 +158,7 @@ td {
     background-size: cover;    */
 }
 
- @media only screen and (max-width: 320px) {
+ @media only screen and (max-width: 220px) {
     .parallax1 {
     background-image: url("tiny_behind.jpg");
     background-attachment: fixed;
