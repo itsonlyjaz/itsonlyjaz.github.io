@@ -147,15 +147,18 @@ td {
 .parallax1 {
     /* About Page*/
     background-image: url("taking_photos.jpg");
-    min-height: 500px; 
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+ /*   min-height: 500px; 
     min-width: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;    
+    background-size: cover;    */
 }
 
- @media only screen and (max-width: 320px) {
+/* @media only screen and (max-width: 320px) {
     .parallax1 {
     background-image: url("tiny_behind.jpg");
     background-attachment: fixed;
@@ -163,7 +166,7 @@ td {
     background-repeat: no-repeat;
     background-size: cover;    
         }
-    }
+    } */
     
     .parallax2 {
     /* Education Page*/
